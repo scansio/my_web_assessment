@@ -9,9 +9,9 @@
             for($j = 1; $j <= $i; $j++){
                 echo $j.' ';
             }
-            $offsetTHtottle = 7;
-            $offset = HIGH * $offsetTHtottle;
-            for($j = $offset; $j >= ($i > 9 ? ($i + 0.5) : $i) * RANDOM; $j--){
+            $offsetThrottle = 4.25;
+            $offset = HIGH * $offsetThrottle;
+            for($j = $offset; $j >= ($i > 9 ? ($i + 0.5) : $i) * RIGHT_ANGLE_TRIANGLE; $j--){
                 echo ' ';
             }
 
